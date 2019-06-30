@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Liner</title>
+</head>
+
+<body>
+    <div id="main">
+        <div class="tools">
+            <button id="typ">last to new</button>
+            <button id="firstToLast">first to last</button>
+            <button id="justDots">dots+lines</button>
+            <button id="connectDots">connect dots</button>
+            <label for="file">load image background<input type="file" name="file" id="file"></label>
+            <button id="brush">no brush</button>
+            <label for="thickness">thickness<input type="number" name="thickness" id="thickness"></label>
+            <button id="clear">clear</button>
+            <button id="clearAll">clear all</button>
+            <button id="save">save image</button>
+            <div id="nOL">Lines: 0</div>
+        </div>
+        <div class="tools" style="padding-top: 0px;height: 37px;padding-left: 3px;width: 800px;">
+            <div id="red" class="colorButton"></div><div id="green" class="colorButton"></div><div id="blue" class="colorButton"></div><div id="black" class="colorButton chosen"></div><div id="yellow" class="colorButton"></div><div id="magenta" class="colorButton"></div><div id="pink" class="colorButton"></div><div id="white" class="colorButton"></div>
+        </div>
+        <div id="position">
+            <canvas width="800" height="800" id="canvas">Your browser does not support canvas element.
+            </canvas>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

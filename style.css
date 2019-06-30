@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#main{
+    width: 960px;
+    margin: 0 auto;
+    height: 900px;
+    display: block;
+    background-color:#888;
+}
+#form{
+    width:800px;
+    height:60px;
+    margin: 0 auto;
+    padding: 5px;
+    background-color:#666;
+    display: block;
+    box-shadow: black;
+    box-shadow: 0 3px 3px 0;
+}
+#canvas{
+    display: block;
+    border: 1px dashed black;
+    width: 800px;
+    height: 800px;
+    margin-top: 10px;
+    margin: 0 auto;
+}
+#position{
+    margin: 0 auto;
+}
+.tools{
+    margin: 0 auto;
+    width:802px;
+    line-height:50px;
+    display:block;
+    background-color:#555;
+    box-shadow:0 3px 3px 0;
+    margin-bottom:5px;
+}
+.colorButton{
+    width:25px;
+    height:25px;
+    margin-right:5px;
+    display: inline-block;
+    cursor:pointer;
+}
+#blue{
+    background-color:blue;
+}
+#green{
+    background-color:green;
+}
+#red{
+    background-color:red;
+}
+#pink{
+    background-color:pink;
+}
+#black{
+    background-color:black;
+}
+#yellow{
+    background-color:yellow;
+}
+#magenta{
+    background-color:magenta;
+}
+#white{
+    background-color:white;
+}
+button{
+    width:90px;
+}
+#connectDots{
+    width:100px;
+}
+#nOL{
+    width:90px;
+    display:inline-block;
+}
+.chosen{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border:1px dashed cyan;
+}
+label{
+    background-color:rgb(237,237,237);
+    padding:2px;
+    overflow:hidden;
+    border-radius:1px;
+}
+input[type="file"]{
+    max-width:259px;
+}
+input[type="number"]{
+    width:45px;
+    margin-left:3px;
+    background-color:rgb(237,237,237);
+}
