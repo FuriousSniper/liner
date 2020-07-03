@@ -1,5 +1,5 @@
 # liner
-A simple web app for creating simple images from lines and dots
+Web app for creating simple images from lines and dots
 ### Instruction
 1. "last to new" / "all to new" - Mode of line adding feature. First one creates a new line from new point to before clicked point and the second mode creates lines from all previously created points to new one
 2. "first to last" - Creates a line between first point and last point.
